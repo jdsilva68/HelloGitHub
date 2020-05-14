@@ -20,7 +20,9 @@ public class HelloWs {
      * This is a sample web service operation testing
      */
     @WebMethod(operationName = "hello")
+    // Ejemplo de cambio
     public String hello(@WebParam(name = "name") String txt) {
+        
         return "Hello " + txt + " !";
     }
 }

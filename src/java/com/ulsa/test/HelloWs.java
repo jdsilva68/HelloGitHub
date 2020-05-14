@@ -17,7 +17,7 @@ import javax.jws.WebParam;
 public class HelloWs {
 
     /**
-     * This is a sample web service operation
+     * This is a sample web service operation testing
      */
     @WebMethod(operationName = "hello")
     public String hello(@WebParam(name = "name") String txt) {

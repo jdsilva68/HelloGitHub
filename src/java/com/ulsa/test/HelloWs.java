@@ -21,6 +21,7 @@ public class HelloWs {
      */
     @WebMethod(operationName = "hello")
     // Ejemplo de cambio
+    // Otro cambio
     public String hello(@WebParam(name = "name") String txt) {
         
         return "Hello " + txt + " !";

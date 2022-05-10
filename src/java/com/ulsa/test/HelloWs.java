@@ -25,6 +25,6 @@ public class HelloWs {
     // Otro cambio
     public String hello(@WebParam(name = "name") String txt) {
         
-        return "Hello Cambio " + txt + " !";
+        return "Hello Cambio 2 " + txt + " !";
     }
 }

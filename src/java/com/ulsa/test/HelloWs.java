@@ -25,6 +25,6 @@ public class HelloWs {
     // Otro cambio
     public String hello(@WebParam(name = "name") String txt) {
         
-        return "Hello Cambio quitar el número " + txt + " !";
+        return "Hello Cambio quitar el número test cambio 601 12 de mayo " + txt + " !";
     }
 }
